@@ -3,7 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-
+<div>
+    <form class="contactForm">
+        <label for="user">Your Name:</label><br>
+        <input type="text" name="username" id="user" placeholder="Your name"><br>
+        
+        <label for="mail">Your E-mail Address:</label><br>
+        <input id="mail" type="email" name="useremail" placeholder="Your e-mail"><br>
+        
+        <label for="message">Your message:</label><br>
+        <textarea id="message" cols="50" rows="10" name="usermessage" placeholder="Please describe your question or comment"></textarea><br>
+        <input type="submit" value="Send"><br>
+    </form>
+</div>
+<div>
+    <h1>Car rental</h1>
+    <form class="rentCarForm">
+        <fieldset>
+            <legend>Choose car class</legend>
+                <input id="mini" type="radio" name="class" value="mini">
+                <label for="mini">mini</label><br>
+                <input id="economy" type="radio" name="class" value="economy">
+                <label for="economy" >economy</label><br>
+                <input id="compact" type="radio" name="class" value="compact">
+                <label for="compact">compact</label><br>
+                <input id="suv" type="radio" name="class" value="SUV">
+                <label for="suv">SUV</label><br>
+                <input id="van" type="radio" name="class" value="VAN">
+                <label for="van">VAN</label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose optional equipment</legend>
+                <input id="cseat" type="checkbox" name="childseat">
+                <label for="cseat">child seat</label><br>
+                <input id="gps" type="checkbox" name="GPS" checked>
+                <label for="gps">GPS</label><br>
+                <input id="dvd" type="checkbox" name="dvdplayer">
+                <label for="dvd">DVD player</label>
+        </fieldset>
+        <label>Rental start date
+            <input type="date"  >
+        </label><br>
+        <label>Number of days
+            <input type="number">
+        </label><br>
+        <label>Your password
+            <input type="password">
+        </label><br>
+        <input type="submit" value="Order now!">
+    </form>
+</div>
 </head>
 <body>
 </body>

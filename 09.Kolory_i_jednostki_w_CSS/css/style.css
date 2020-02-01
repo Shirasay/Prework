@@ -1,0 +1,36 @@
+#first-span{
+	color: darkkhaki;
+}
+#second-span{
+	color: purple;
+}
+#red{
+	color: red;
+}
+#green{
+	color: green;
+}
+#blue{
+	color: blue;
+}
+#hex{
+	background-color: #f80;
+}
+#RGB{
+	background-color: rgb(150, 75, 31);
+}
+#HSL{
+	background-color: hsl(45, 50%, 45%);
+}
+.container{
+	background-color: khaki;
+	width: 200px;
+}
+#first{
+	width: 70%;
+	background-color: maroon;
+}
+#second{
+	width: 10em;
+	background-color: purple;
+}

@@ -10,13 +10,14 @@ Czy zaobserwowałeś jakąś zasadę CSS?
 
 #### 1. ZEWNĘTRZNY ARKUSZ STYLI, niebieskie tło
   W katalogu **css** stwórz plik **style.css** i ustaw w nim niebieski kolor tła elementowi **body**.
-
+<!--Tło strony zostało zmienione na niebieski dzięki komendzie zamieszczonej w pliku style.css-->
 #### 2. WEWNĘTRZNY ARKUSZ STYLI, różowe tło
 Dodaj wewnętrzne style do sekcji **head** pliku **html**. Ustaw w nich różowy kolor tła elementowi **body**.
-
+<!--Tło zmieniło kolor z niebieskiego na różowy, kod w pliku **html** zignorował plik css,
+ponieważ kod zmiany tła znajduje się w tym samym pliku  o którym mówi linijka kodu zmieniająca tło-->
 #### 3. STYLE INLINE, zielone tło
 W pliku **html** do tagu **body** dodaj atrybut **style**. Ustaw zielony kolor tła.
-
+<!--Tło z koloru różowego zmieniło się na kolor zielony, stało się tak ponieważ komenda zmiany koloru znajduje się dokładnie w części pliku html którego dotyczy. Wynika z tego że komendy są silniejsze im bliżej znajdują się sekcji/części kodu którą opisują -->
 ---
 
 ## class i id
